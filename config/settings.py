@@ -47,8 +47,27 @@ INSTALLED_APPS = [
     "apps.users",
     "apps.auth",
     "apps.advertisements",
+    'apps.cars_details.cars',
+    'apps.cars_details.brand_models',
+    'apps.cars_details.car_views',
+    'apps.all_users.sellers',
+    'apps.all_users.premium_sellers',
+    # 'apps.all_users.visitors',
+    'apps.all_users.auth',
+    'apps.all_users.users',
+    'apps.all_users.managers',
+    'apps.all_users.admins',
+    'apps.info',
+    # 'apps.all_users.accounts',
+    # 'apps.messages',
+    # 'apps.sale_announcement',
     # core
     "core",
+    # 'apps.partners.car_dealership',
+    # 'apps.partners.car_dealership_admin'
+    # 'apps.partners.car_dealership_manager',
+    # 'apps.partners.car_dealership_mechanic',
+    # 'apps.partners.car_dealership_sales',
 ]
 
 
